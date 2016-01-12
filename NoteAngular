@@ -1,0 +1,53 @@
+1 FrameWork JS 
+
+50kb la lib
+
+~ MVC : MVW (MV Whatever) : la possibillité d'intégrer les templates
+
+Meme 1 framework front, ya du back : par ex routing
+
+Pourquoi ANgular : gérer du code HTML, code HTML vient dans les chevron <>
+
+Angular 1 : refond des apps lourdes
+Angular 2 : 
+
+Concurrents : 
+	Ember js, 
+	React js (facebook, 1 sys de DOM, faible: sys routing mal), 
+	Node js (plutôt du back et routing bien fait)
+
+Seed App project template : 1 skelette de projet avec les tests ...
+
+http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/creating-a-store-module
+	! attention : ya bootstrap mais pas la même choses avec bootstrap télécharger
+	
+grafikart.fr : tutos
+
+karma : outil de test unitaire
+
+scope : portée soi global/locale des variables
+
+~twig
+
+l'injection de dépedance : parfois le code a besoin d'autre code et as de recode -> gérer mieux la réutilisation
+	var app = angular.module('store', []);
+		entre [] : la dépendencies
+		
+IIFE (en JS) : ()(); funtion smt() {...}(); fonction qui est déclarée puis exécutée tout suite
+
+dans c/wamp/www/angular
+	git init : créer 1 dépôt git
+	git status
+	git checkout -b 1.2 (-b branch)
+	git add .
+	git commit -m 'Etape 1.2.'
+	
+Faut créer la branche avant modifier du code !
+
+	git branch -a : pr afficher les braches et la branche courante
+	git checkout 1.4 : pr aller sur la branche 1.4
+	
+modelState = ! modelState : changer d'état san besoin de vérifier
+
+
+	
