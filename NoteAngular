@@ -49,5 +49,12 @@ Faut créer la branche avant modifier du code !
 	
 modelState = ! modelState : changer d'état san besoin de vérifier
 
+Dépôt projet sur 1 serveur git :
+	github : projet public, illimité de contributeurs
+	bitbucket : projet privé, limité nombre de contributeurs à 5
+	
+	faut créer 1 clef shh pour autoriser le push depuis pc vers serveur
+	new repository
+	
 
 	
