@@ -56,5 +56,22 @@ Dépôt projet sur 1 serveur git :
 	faut créer 1 clef shh pour autoriser le push depuis pc vers serveur
 	new repository
 	
+	gitbash :
+		git remote add origin https://github.com/Tran-Minh/angular.git : pr link dépôt local à dépôt distance
+		git push --all origin : login + pass de github
+		ssh-keygen : créer 1 clef soit public/private. Passez 1 passphrase
+		cat /c/Users/PCTM/.ssh/id_rsa.pub : pr voir la clef ssh -> utiliser pour la dépôt ssh
+		
+		! 2 façons de dépôt :
+			https : chq push demande login/pass
+			ssh : utiliser la clef ssh
+		
+		pr supprimer le dépôt : git remote remove origin
+		
+		pr récupérer d'ailleur:
+			git clone git@github.com:Tran-Minh/angular.git
+				-> clef ssh
+			git pull ...
+			
 
 	
